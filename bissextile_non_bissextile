@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define x 4
+
+int main ()
+{
+    int annee = 0;
+    printf("veuillez entrez l'annee");
+    scanf("%d", &annee);
+    if (annee % x == 0) {
+        printf("cette annee est une annee bissextile");
+    } else {
+        printf("cette annee n'est pas une annee bissextile");
+    }
+    return 0;
+}
